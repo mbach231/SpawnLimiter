@@ -1,0 +1,103 @@
+# 
+# mobs:
+#   EXAMPLE_BIOME:
+#     ZOMBIE:
+#       chance: 0.2
+
+
+# Custom Mobs:
+# 
+# Skeleton: BOUNTY_HUNTER, BOUNTY_HUNTER_LEADER
+#
+# Spider: FOREST_SPIDER, FOREST_SPIDER_MINION
+#
+# Creeper: ICE_ANOMALY
+#
+# Rabbit: THE_KILLER_BUNNY
+#
+# Slime: RADIOACTIVE_BLOB, DEVELOPED_RADIOACTIVE_BLOB
+#
+# Zombie: HUSK
+
+
+world:
+  spawn-blacklist:
+  - WATER
+  - STATIONARY_WATER
+  - LAVA
+  - STATIONARY_LAVA
+  spawn-area:
+    area-type: CIRCLE
+    min-x: -5000
+    max-x: 5000
+    min-z: -5000
+    max-z: 5000
+    radius: 500
+    center-x: 0
+    center-z: 0
+  mobs:
+    PLAINS:
+      BOUNTY_HUNTER_LEADER:
+        chance: 0.3
+      ZOMBIE:
+        chance: 0.1
+      RABBIT:
+        chance: 0.195
+      THE_KILLER_BUNNY:
+        chance: 0.005
+      HORSE:
+        chance: 0.2
+      COW:
+        chance: 0.2
+    FOREST:
+      FOREST_SPIDER:
+        chance: 0.2
+      SPIDER:
+        chance: 0.3
+      SKELETON:
+        chance: 0.1
+      CHICKEN:
+        chance: 0.2
+    DESERT:
+      CREEPER:
+        chance: 0.5
+    SAVANNA:
+      ZOMBIE:
+        chance: 1.0
+    JUNGLE:
+      ZOMBIE:
+        chance: 1.0
+    COLD_TAIGA:
+      ZOMBIE:
+        chance: 1.0
+    ICE_PLAINS:
+      ZOMBIE:
+        chance: 1.0
+    EXTREME_HILLS:
+      ZOMBIE:
+        chance: 1.0
+    BEACH:
+      ZOMBIE:
+        chance: 1.0
+    SWAMPLAND:
+      SLIME:
+        chance: 0.5
+      RADIOACTIVE_BLOB:
+        chance: 0.4
+      DEVELOPED_RADIOACTIVE_BLOB:
+        chance: 0.1
+    OCEAN:
+      ZOMBIE:
+        chance: 1.0
+    RIVER:
+      ZOMBIE:
+        chance: 1.0
+    MUSHROOM_ISLAND:
+      ZOMBIE:
+        chance: 1.0
+    HELL:
+      ZOMBIE:
+        chance: 1.0
+    SKY:
+      ZOMBIE:
+        chance: 1.0
